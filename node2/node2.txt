@@ -1,0 +1,29 @@
+  geth-2:
+    image: "ethereum/client-go:stable"
+    command:
+      - --http
+      - --http.api=eth,net,web3
+      - --http.addr=0.0.0.0
+      - --http.corsdomain=*
+      - --ws
+      - --ws.api=eth,net,web3
+      - --ws.addr=0.0.0.0
+      - --ws.origins=*
+      - --authrpc.vhosts=*
+      - --authrpc.addr=0.0.0.0
+      - --authrpc.jwtsecret=/execution/jwtsecret
+      - --datadir=/node2
+      - --allow-insecure-unlock
+      - --unlock=0xE5A126eEC053109ac6aBAf4E9985ff5370328465
+      - --password=/node2/pass.txt
+      - --nodiscover
+      - --syncmode=full
+    depends_on:
+      geth-genesis:
+        condition: service_completed_successfully
+      beacon-chain:
+        condition: service_started
+    volumes:
+      - ./node2:/node2
+      - ./execution/jwtsecret:/execution/jwtsecret
+      - ./node2/pass.txt:/node2/pass.txt

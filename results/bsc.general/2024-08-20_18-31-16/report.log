@@ -1,0 +1,10 @@
+[2024-08-20 18:31:16,348] demidov-pc/INFO/locust.main: Starting web interface at http://127.0.0.1:8089
+[2024-08-20 18:31:16,358] demidov-pc/INFO/chainbench.util.event: I'm a master. Running tests for http://localhost:8545
+[2024-08-20 18:31:16,359] demidov-pc/INFO/locust.runners: Worker demidov-pc_0bf42854d82c4d46a0e5e0a6ea9ce7d8 (index 0) reported as ready. 1 workers connected.
+[2024-08-20 18:31:17,360] demidov-pc/INFO/chainbench.util.event: Initializing test data for EvmTestData
+[2024-08-20 18:31:17,376] demidov-pc/INFO/chainbench.util.event: Target endpoint network is ethereum-mainnet
+[2024-08-20 18:31:17,376] demidov-pc/INFO/chainbench.test_data.blockchain: Test data size: S
+[2024-08-20 18:31:17,378] demidov-pc/INFO/chainbench.test_data.evm: Using blocks from 10000000 to 0 as test data
+[2024-08-20 18:31:17,432] demidov-pc/ERROR/chainbench.util.event: Failed to init test data: ValueError: empty range in randrange(10000000, 1). Exiting...
+[2024-08-20 18:31:17,454] demidov-pc/INFO/locust.runners: Worker 'demidov-pc_0bf42854d82c4d46a0e5e0a6ea9ce7d8' (index 0) quit. 0 workers ready.
+[2024-08-20 18:31:17,454] demidov-pc/INFO/locust.runners: The last worker quit, stopping test.

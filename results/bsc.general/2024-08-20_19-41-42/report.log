@@ -1,0 +1,7 @@
+[2024-08-20 19:41:42,540] demidov-pc/INFO/locust.main: Starting web interface at http://127.0.0.1:8089
+[2024-08-20 19:41:42,551] demidov-pc/INFO/chainbench.util.event: I'm a master. Running tests for http://localhost:8545
+[2024-08-20 19:41:42,720] demidov-pc/INFO/locust.runners: Worker demidov-pc_cf364f3ceeef469099758777528a14a4 (index 0) reported as ready. 1 workers connected.
+[2024-08-20 19:41:43,551] demidov-pc/INFO/chainbench.util.event: Initializing test data for EvmTestData
+[2024-08-20 19:41:43,559] demidov-pc/ERROR/chainbench.util.event: Failed to init test data: ValueError: Unsupported chain id: 22222. Exiting...
+[2024-08-20 19:41:43,581] demidov-pc/INFO/locust.runners: Worker 'demidov-pc_cf364f3ceeef469099758777528a14a4' (index 0) quit. 0 workers ready.
+[2024-08-20 19:41:43,581] demidov-pc/INFO/locust.runners: The last worker quit, stopping test.

@@ -1,0 +1,7 @@
+[2024-08-20 18:26:50,261] demidov-pc/INFO/locust.main: Starting web interface at http://127.0.0.1:8089
+[2024-08-20 18:26:50,271] demidov-pc/INFO/chainbench.util.event: I'm a master. Running tests for http://localhost:8545
+[2024-08-20 18:26:50,273] demidov-pc/INFO/locust.runners: Worker demidov-pc_13ccec0be4984c14bb271525bb1110a9 (index 0) reported as ready. 1 workers connected.
+[2024-08-20 18:26:51,274] demidov-pc/INFO/chainbench.util.event: Initializing test data for EvmTestData
+[2024-08-20 18:26:51,281] demidov-pc/ERROR/chainbench.util.event: Failed to init test data: ConnectionRefusedError: [Errno 111] Connection refused. Exiting...
+[2024-08-20 18:26:51,305] demidov-pc/INFO/locust.runners: Worker 'demidov-pc_13ccec0be4984c14bb271525bb1110a9' (index 0) quit. 0 workers ready.
+[2024-08-20 18:26:51,305] demidov-pc/INFO/locust.runners: The last worker quit, stopping test.

@@ -1,0 +1,11 @@
+[2024-08-20 19:46:14,008] demidov-pc/INFO/chainbench.util.event: I'm a master. Running tests for http://localhost:8545
+[2024-08-20 19:46:14,010] demidov-pc/INFO/locust.runners: Worker demidov-pc_de5025fe4e514f9c8fb4e6fc6cf2f324 (index 0) reported as ready. 1 workers connected.
+[2024-08-20 19:46:14,190] demidov-pc/INFO/locust.runners: Worker demidov-pc_57c7024d9ce749139c4ab0cef1cafb4b (index 1) reported as ready. 2 workers connected.
+[2024-08-20 19:46:15,010] demidov-pc/INFO/chainbench.util.event: Initializing test data for EvmTestData
+[2024-08-20 19:46:15,017] demidov-pc/INFO/chainbench.util.event: Target endpoint network is ethereum-sepolia-testnet
+[2024-08-20 19:46:15,018] demidov-pc/INFO/chainbench.test_data.blockchain: Test data size: S
+[2024-08-20 19:46:15,018] demidov-pc/INFO/chainbench.test_data.evm: Using blocks from 1 to 0 as test data
+[2024-08-20 19:46:15,043] demidov-pc/ERROR/chainbench.util.event: Failed to init test data: ValueError: empty range in randrange(1, 1). Exiting...
+[2024-08-20 19:46:15,064] demidov-pc/INFO/locust.runners: Worker 'demidov-pc_57c7024d9ce749139c4ab0cef1cafb4b' (index 1) quit. 1 workers ready.
+[2024-08-20 19:46:15,064] demidov-pc/INFO/locust.runners: Worker 'demidov-pc_de5025fe4e514f9c8fb4e6fc6cf2f324' (index 0) quit. 0 workers ready.
+[2024-08-20 19:46:15,064] demidov-pc/INFO/locust.runners: The last worker quit, stopping test.

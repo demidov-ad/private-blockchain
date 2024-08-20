@@ -1,0 +1,16 @@
+[2024-08-20 18:25:26,020] demidov-pc/INFO/chainbench.util.event: I'm a worker. Running tests for https://node-url
+[2024-08-20 18:25:26,020] demidov-pc/INFO/locust.main: Starting Locust 2.31.3
+[2024-08-20 18:25:27,077] demidov-pc/INFO/locust.runners: Got quit message from master, shutting down...
+[2024-08-20 18:25:27,098] demidov-pc/ERROR/root: Uncaught exception in event handler: 
+Traceback (most recent call last):
+  File "/home/demidov/work/private-blockchain/venv/lib/python3.12/site-packages/locust/event.py", line 47, in fire
+    handler(**kwargs)
+  File "/home/demidov/work/private-blockchain/venv/lib/python3.12/site-packages/chainbench/util/event.py", line 271, in on_test_stop
+    f"{Timer.get_time_diff(environment.runner.worker_index):>.3f} seconds"
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/demidov/work/private-blockchain/venv/lib/python3.12/site-packages/chainbench/util/timer.py", line 17, in get_time_diff
+    return time.time() - cls._timer[timer_id]
+                         ~~~~~~~~~~^^^^^^^^^^
+KeyError: 0
+
+[2024-08-20 18:25:27,099] demidov-pc/INFO/locust.main: Shutting down (exit code 2)

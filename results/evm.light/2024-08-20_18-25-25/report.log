@@ -1,0 +1,8 @@
+[2024-08-20 18:25:26,011] demidov-pc/INFO/chainbench.util.event: I'm a master. Running tests for https://node-url
+[2024-08-20 18:25:26,019] demidov-pc/INFO/locust.runners: Worker demidov-pc_03be6ba7e81e439981bd7f479a5a0bbd (index 0) reported as ready. 1 workers connected.
+[2024-08-20 18:25:26,196] demidov-pc/INFO/locust.runners: Worker demidov-pc_c4488127168e49ad87391b523cdd6b29 (index 1) reported as ready. 2 workers connected.
+[2024-08-20 18:25:27,013] demidov-pc/INFO/chainbench.util.event: Initializing test data for EvmTestData
+[2024-08-20 18:25:27,076] demidov-pc/ERROR/chainbench.util.event: Failed to init test data: gaierror: [Errno -3] Temporary failure in name resolution. Exiting...
+[2024-08-20 18:25:27,098] demidov-pc/INFO/locust.runners: Worker 'demidov-pc_c4488127168e49ad87391b523cdd6b29' (index 1) quit. 1 workers ready.
+[2024-08-20 18:25:27,099] demidov-pc/INFO/locust.runners: Worker 'demidov-pc_03be6ba7e81e439981bd7f479a5a0bbd' (index 0) quit. 0 workers ready.
+[2024-08-20 18:25:27,099] demidov-pc/INFO/locust.runners: The last worker quit, stopping test.
